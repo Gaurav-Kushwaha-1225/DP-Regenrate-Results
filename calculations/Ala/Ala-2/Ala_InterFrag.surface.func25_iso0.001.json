@@ -1,0 +1,11 @@
+{
+  "surface_def_raw": "Function  25",
+  "iso": 0.001,
+  "overall_surface_A2": 182.4518,
+  "polar_area_A2": 25.44,
+  "nonpolar_area_A2": 157.01,
+  "polar_threshold_kcal": 10.0,
+  "volume_A3": 347.33639,
+  "tag": "func25_iso0.001",
+  "wfx": "/home/friday_code/Desktop/DP-Regenrate-Results/calculations/Ala/Ala-2/Ala_InterFrag.wfx"
+}
