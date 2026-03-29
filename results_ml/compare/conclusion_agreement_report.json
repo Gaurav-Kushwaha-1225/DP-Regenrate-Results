@@ -1,0 +1,59 @@
+{
+  "paper_targets": {
+    "linear_loocv_rmse": 0.17,
+    "linear_loocv_r2": 0.74,
+    "rf_oob_rmse": 0.17,
+    "rf_oob_r2": 0.75
+  },
+  "core_features_expected": [
+    "PSAs+NSAi",
+    "qNPSA",
+    "HOMO-5s-LUMO+1i"
+  ],
+  "user_selected_features_count": 1,
+  "core_features_found_in_user_selected": 0,
+  "three_feature_columns_used": [
+    "PSAs+NSAi",
+    "qNPSA",
+    "HOMO-5s-LUMO+1i"
+  ],
+  "three_feature_missing": [],
+  "three_feature_fit": {
+    "loocv_rmse": 0.1923377618231774,
+    "loocv_r2": 0.6791239655673071,
+    "coef_signs": [
+      "-",
+      "-",
+      "-"
+    ],
+    "coefs": [
+      -0.10331247210771942,
+      -0.1052221227864164,
+      -0.1654397567322993
+    ]
+  },
+  "user_pipeline_linear_metrics": {
+    "rmse": 0.22760046203652104,
+    "mae": 0.18424212297925663,
+    "r2": 0.550681350891679,
+    "cv": "LOO"
+  },
+  "user_pipeline_rf_metrics": {
+    "oob_r2": 0.4545674140388163,
+    "rmse": 0.25076473251898423,
+    "mae": 0.19835365326497187,
+    "r2": 0.4545674140388163,
+    "cv": "OOB",
+    "best_params": {
+      "n_estimators": 1000,
+      "max_depth": 5,
+      "max_features": "sqrt"
+    }
+  },
+  "score_breakdown": {
+    "core_score_50": 0.0,
+    "sign_score_20": 20.0,
+    "perf_score_30": 0.0,
+    "total_100": 20.0
+  }
+}
