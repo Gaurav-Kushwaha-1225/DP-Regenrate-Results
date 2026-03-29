@@ -1,0 +1,449 @@
+===== OUTPUT =====
+ WARNING: "settings.ini" was found neither in current folder nor in the path defined by "Multiwfnpath" environment variable. Now using default settings instead, and all your modifications (if any) on settings.ini will not take effect!
+ 
+ Multiwfn -- A Multifunctional Wavefunction Analyzer
+ Version 2026.3.11, release date: 2026-Mar-11
+ Developer: Tian Lu (Beijing Kein Research Center for Natural Sciences)
+ Multiwfn official website: http://sobereva.com/multiwfn
+ Multiwfn English forum: http://sobereva.com/wfnbbs
+ Multiwfn Chinese forum: http://bbs.keinsci.com/wfn
+ ( Number of parallel threads:   4  Current date: 2026-03-28  Time: 20:15:55 )
+ 
+ Both following papers ***MUST BE CITED IN MAIN TEXT*** if Multiwfn is used:
+  Tian Lu, Feiwu Chen, J. Comput. Chem., 33, 580 (2012) DOI: 10.1002/jcc.22885
+  Tian Lu, J. Chem. Phys., 161, 082503 (2024) DOI: 10.1063/5.0216272
+ See "How to cite Multiwfn.pdf" in Multiwfn binary package for more information
+
+ Warning: You should set OMP_STACKSIZE environment variable as mentioned in Section 2.1.2 of Multiwfn manual!
+ 
+ Please wait...
+ 
+ Total energy:    -761.209982990504 Hartree,   Virial ratio:  0.00000000
+ Total/Alpha/Beta electrons:    116.0000     58.0000     58.0000
+ Number of orbital:    58,  Atoms:     28,  GTFs:    532
+ This is restricted closed-shell single-determinant wavefunction
+ 
+
+ Loaded /kaggle/working/Trp-OH-2/Trp-OH_InterFrag.wfx successfully!
+ 
+ Formula: H12 C11 N2 O3      Total atoms:      28
+ Molecule weight:       220.22501 Da
+ Point group: C1 
+ 
+ "q": Exit program gracefully          "r": Load a new file
+                    ************ Main function menu ************
+ 0 Show molecular structure and view orbitals
+ 1 Output all properties at a point       2 Topology analysis
+ 3 Output and plot specific property in a line
+ 4 Output and plot specific property in a plane
+ 5 Output and plot specific property within a spatial region (calc. grid data)
+ 6 Check & modify wavefunction
+ 7 Population analysis and calculation of atomic charges
+ 8 Orbital composition analysis           9 Bond order analysis
+ 10 Plot total DOS, PDOS, OPDOS, local DOS, COHP and photoelectron spectrum
+ 11 Plot IR/Raman/UV-Vis/ECD/VCD/ROA/NMR spectrum
+ 12 Quantitative analysis of molecular surface
+ 13 Process grid data (No grid data is presented currently)
+ 14 Adaptive natural density partitioning (AdNDP) analysis
+ 15 Fuzzy atomic space analysis
+ 16 Charge decomposition analysis (CDA) and plot orbital interaction diagram
+ 17 Basin analysis                       18 Electron excitation analysis
+ 19 Orbital localization analysis        20 Visual study of weak interaction
+ 21 Energy decomposition analysis        22 Conceptual DFT (CDFT) analysis
+ 23 ETS-NOCV analysis                    24 (Hyper)polarizability analysis
+ 25 Electron delocalization and aromaticity analyses
+ 26 Structure and geometry related analyses
+ 100 Other functions (Part 1)            200 Other functions (Part 2)
+ 300 Other functions (Part 3)
+ 
+ NOTE: If this module is used in your research, please cite both the Multiwfn original papers (those shown when Multiwfn boots up) and the following paper, the latter detailedly described the underlying algorithm employed in this module
+ Tian Lu, Feiwu Chen, Quantitative analysis of molecular surface based on improved Marching Tetrahedra algorithm, J. Mol. Graph. Model., 38, 314-323 (2012)
+ 
+      ============= Quantitative Molecular Surface Analysis =============
+ -1 Return to main menu
+ 0 Start analysis now!
+ 1 Select the way to define surface, current: Electron density, iso:  0.00100
+ 2 Select mapped function, current: Electrostatic potential (ESP)
+ 3 Spacing of grid points for generating molecular surface:  0.250000
+ 4 Advanced options
+ 5 Loading mapped function values from external file, current: No
+ 6 Start analysis without considering mapped function
+ How to define the surface to be analyzed?
+ 1 Isosurface of electron density
+ 2 Isosurface of a specific real space function 
+ 5 Hirshfeld surface (isosurface of Hirshfeld weight) of a fragment
+ 6 Becke surface (isosurface of Becke weight) of a fragment
+ 10 Isosurface of a grid data loaded from external file
+ Input the isovalue for defining the isosurface, e.g. 0.5
+ Hint: Isovalue of 0.001 is commonly used to define molecular vdW surface
+ 
+ NOTE: If this module is used in your research, please cite both the Multiwfn original papers (those shown when Multiwfn boots up) and the following paper, the latter detailedly described the underlying algorithm employed in this module
+ Tian Lu, Feiwu Chen, Quantitative analysis of molecular surface based on improved Marching Tetrahedra algorithm, J. Mol. Graph. Model., 38, 314-323 (2012)
+ 
+      ============= Quantitative Molecular Surface Analysis =============
+ -1 Return to main menu
+ 0 Start analysis now!
+ 1 Select the way to define surface, current: Electron density, iso:  0.00100
+ 2 Select mapped function, current: Electrostatic potential (ESP)
+ 3 Spacing of grid points for generating molecular surface:  0.250000
+ 4 Advanced options
+ 5 Loading mapped function values from external file, current: No
+ 6 Start analysis without considering mapped function
+ Unique GTFs have been constructed. Number of unique GTFs:     532
+ Spatial range of grid data:
+ X is from  -11.7772  to   12.8275 Bohr
+ Y is from  -10.0674  to   10.2925 Bohr
+ Z is from   -7.4599  to    8.1931 Bohr
+ The number of point in x,y,z:    99    82    64  Total:    519552
+ 
+ Calculating grid data of electron density...
+ Note: All exponential functions exp(x) with x< -40.000 will be ignored 
+ Unique GTFs have been constructed. Number of unique GTFs:     532
+ Progress: [--------------------------------------------------]     0.0 %     -
+ Progress: [--------------------------------------------------]     0.0 %     \
+ Progress: [--------------------------------------------------]     1.0 %     |
+ Progress: [#-------------------------------------------------]     2.0 %     /
+ Progress: [#-------------------------------------------------]     3.0 %     -
+ Progress: [##------------------------------------------------]     4.0 %     \
+ Progress: [##------------------------------------------------]     5.0 %     |
+ Progress: [###-----------------------------------------------]     6.0 %     /
+ Progress: [###-----------------------------------------------]     7.0 %     -
+ Progress: [####----------------------------------------------]     8.0 %     \
+ Progress: [####----------------------------------------------]     9.0 %     |
+ Progress: [#####---------------------------------------------]    10.0 %     /
+ Progress: [#####---------------------------------------------]    11.0 %     -
+ Progress: [######--------------------------------------------]    12.0 %     \
+ Progress: [######--------------------------------------------]    13.0 %     |
+ Progress: [#######-------------------------------------------]    14.0 %     /
+ Progress: [#######-------------------------------------------]    15.0 %     -
+ Progress: [########------------------------------------------]    16.0 %     \
+ Progress: [########------------------------------------------]    17.0 %     |
+ Progress: [#########-----------------------------------------]    18.0 %     /
+ Progress: [#########-----------------------------------------]    19.0 %     -
+ Progress: [##########----------------------------------------]    20.0 %     \
+ Progress: [##########----------------------------------------]    21.0 %     |
+ Progress: [###########---------------------------------------]    22.0 %     /
+ Progress: [###########---------------------------------------]    23.0 %     -
+ Progress: [############--------------------------------------]    24.0 %     \
+ Progress: [############--------------------------------------]    25.0 %     |
+ Progress: [#############-------------------------------------]    26.0 %     /
+ Progress: [#############-------------------------------------]    27.0 %     -
+ Progress: [##############------------------------------------]    28.0 %     \
+ Progress: [##############------------------------------------]    29.0 %     |
+ Progress: [###############-----------------------------------]    30.0 %     /
+ Progress: [###############-----------------------------------]    31.0 %     -
+ Progress: [################----------------------------------]    32.0 %     \
+ Progress: [################----------------------------------]    33.0 %     |
+ Progress: [#################---------------------------------]    34.0 %     /
+ Progress: [#################---------------------------------]    35.0 %     -
+ Progress: [##################--------------------------------]    36.0 %     \
+ Progress: [##################--------------------------------]    37.0 %     |
+ Progress: [###################-------------------------------]    38.0 %     /
+ Progress: [###################-------------------------------]    39.0 %     -
+ Progress: [####################------------------------------]    40.0 %     \
+ Progress: [####################------------------------------]    41.0 %     |
+ Progress: [#####################-----------------------------]    42.0 %     /
+ Progress: [#####################-----------------------------]    43.0 %     -
+ Progress: [######################----------------------------]    44.0 %     \
+ Progress: [######################----------------------------]    45.0 %     |
+ Progress: [#######################---------------------------]    46.0 %     /
+ Progress: [#######################---------------------------]    47.0 %     -
+ Progress: [########################--------------------------]    48.0 %     \
+ Progress: [########################--------------------------]    49.0 %     |
+ Progress: [#########################-------------------------]    50.0 %     /
+ Progress: [#########################-------------------------]    51.0 %     -
+ Progress: [##########################------------------------]    52.0 %     \
+ Progress: [##########################------------------------]    53.0 %     |
+ Progress: [###########################-----------------------]    54.0 %     /
+ Progress: [###########################-----------------------]    55.0 %     -
+ Progress: [############################----------------------]    56.0 %     \
+ Progress: [############################----------------------]    57.0 %     |
+ Progress: [############################----------------------]    58.0 %     /
+ Progress: [#############################---------------------]    59.0 %     -
+ Progress: [##############################--------------------]    60.0 %     \
+ Progress: [##############################--------------------]    61.0 %     |
+ Progress: [###############################-------------------]    62.0 %     /
+ Progress: [###############################-------------------]    63.0 %     -
+ Progress: [################################------------------]    64.0 %     \
+ Progress: [################################------------------]    65.0 %     |
+ Progress: [#################################-----------------]    66.0 %     /
+ Progress: [#################################-----------------]    67.0 %     -
+ Progress: [##################################----------------]    68.0 %     \
+ Progress: [##################################----------------]    69.0 %     |
+ Progress: [###################################---------------]    70.0 %     /
+ Progress: [###################################---------------]    71.0 %     -
+ Progress: [####################################--------------]    72.0 %     \
+ Progress: [####################################--------------]    73.0 %     |
+ Progress: [#####################################-------------]    74.0 %     /
+ Progress: [#####################################-------------]    75.0 %     -
+ Progress: [######################################------------]    76.0 %     \
+ Progress: [######################################------------]    77.0 %     |
+ Progress: [#######################################-----------]    78.0 %     /
+ Progress: [#######################################-----------]    79.0 %     -
+ Progress: [########################################----------]    80.0 %     \
+ Progress: [########################################----------]    81.0 %     |
+ Progress: [#########################################---------]    82.0 %     /
+ Progress: [#########################################---------]    83.0 %     -
+ Progress: [##########################################--------]    84.0 %     \
+ Progress: [##########################################--------]    85.0 %     |
+ Progress: [###########################################-------]    86.0 %     /
+ Progress: [###########################################-------]    87.0 %     -
+ Progress: [############################################------]    88.0 %     \
+ Progress: [############################################------]    89.0 %     |
+ Progress: [#############################################-----]    90.0 %     /
+ Progress: [#############################################-----]    91.0 %     -
+ Progress: [##############################################----]    92.0 %     \
+ Progress: [##############################################----]    93.0 %     |
+ Progress: [###############################################---]    94.0 %     /
+ Progress: [###############################################---]    95.0 %     -
+ Progress: [################################################--]    96.0 %     \
+ Progress: [################################################--]    97.0 %     |
+ Progress: [#################################################-]    98.0 %     /
+ Progress: [#################################################-]    99.0 %     -
+ Progress: [##################################################]   100.0 %     \
+ 
+ Calculation of grid data took up wall clock time         1 s
+ 
+ The number of boundary cubes:             20470
+ The number of corners of boundary cubes:     40926
+ Generating isosurface by Marching Tetrahedra algorithm, please wait...
+ The number of surface vertices (V):      62668
+ The number of surface edges (E):        187998
+ The number of triangular facets (F):    125332
+ V+F-E-2=         0
+ Volume enclosed by the isosurface:  1736.45554 Bohr^3  ( 257.31616 Angstrom^3)
+ Among all surface vertices:
+ Min-X:     -5.5608  Max-X:    6.0728 Angstrom
+ Min-Y:     -4.4871  Max-Y:    4.7745 Angstrom
+ Min-Z:     -3.2417  Max-Z:    3.4776 Angstrom
+ 
+ Eliminating redundant surface vertices...
+ After elimination, V=    18519,  E=    55551,  F=    37034,  V+F-E-2=     0
+ Isosurface area:   863.58408 Bohr^2  ( 241.82817 Angstrom^2)
+ Sphericity:  0.8090
+ 
+ Calculating electrostatic potential at surface vertices, please wait patiently
+ 
+ Initializing LIBRETA library (fast version) for ESP evaluation ...
+ LIBRETA library has been successfully initialized!
+
+ NOTE: The ESP evaluation code based on LIBRETA library is being used. Please cite Multiwfn original papers (J. Comput. Chem., 33, 580-592 (2012) and J. Chem. Phys., 161, 082503 (2024)) and the paper describing the efficient ESP evaluation algorithm adopted by Multiwfn (Phys. Chem. Chem. Phys., 23, 20323 (2021))
+ 
+ Progress: [--------------------------------------------------]     0.0 %     |
+ Progress: [--------------------------------------------------]     0.0 %     /
+ Progress: [--------------------------------------------------]     1.0 %     -
+ Progress: [#-------------------------------------------------]     2.0 %     \
+ Progress: [#-------------------------------------------------]     3.0 %     |
+ Progress: [##------------------------------------------------]     4.0 %     /
+ Progress: [##------------------------------------------------]     5.0 %     -
+ Progress: [###-----------------------------------------------]     6.0 %     \
+ Progress: [###-----------------------------------------------]     7.0 %     |
+ Progress: [####----------------------------------------------]     8.0 %     /
+ Progress: [####----------------------------------------------]     9.0 %     -
+ Progress: [#####---------------------------------------------]    10.0 %     \
+ Progress: [#####---------------------------------------------]    11.0 %     |
+ Progress: [######--------------------------------------------]    12.0 %     /
+ Progress: [######--------------------------------------------]    13.0 %     -
+ Progress: [#######-------------------------------------------]    14.0 %     \
+ Progress: [#######-------------------------------------------]    15.0 %     |
+ Progress: [########------------------------------------------]    16.0 %     /
+ Progress: [########------------------------------------------]    17.0 %     -
+ Progress: [#########-----------------------------------------]    18.0 %     \
+ Progress: [#########-----------------------------------------]    19.0 %     |
+ Progress: [##########----------------------------------------]    20.0 %     /
+ Progress: [##########----------------------------------------]    21.0 %     -
+ Progress: [###########---------------------------------------]    22.0 %     \
+ Progress: [###########---------------------------------------]    23.0 %     |
+ Progress: [############--------------------------------------]    24.0 %     /
+ Progress: [############--------------------------------------]    25.0 %     -
+ Progress: [#############-------------------------------------]    26.0 %     \
+ Progress: [#############-------------------------------------]    27.0 %     |
+ Progress: [##############------------------------------------]    28.0 %     /
+ Progress: [##############------------------------------------]    29.0 %     -
+ Progress: [###############-----------------------------------]    30.0 %     \
+ Progress: [###############-----------------------------------]    31.0 %     |
+ Progress: [################----------------------------------]    32.0 %     /
+ Progress: [################----------------------------------]    33.0 %     -
+ Progress: [#################---------------------------------]    34.0 %     \
+ Progress: [#################---------------------------------]    35.0 %     |
+ Progress: [##################--------------------------------]    36.0 %     /
+ Progress: [##################--------------------------------]    37.0 %     -
+ Progress: [###################-------------------------------]    38.0 %     \
+ Progress: [###################-------------------------------]    39.0 %     |
+ Progress: [####################------------------------------]    40.0 %     /
+ Progress: [####################------------------------------]    41.0 %     -
+ Progress: [#####################-----------------------------]    42.0 %     \
+ Progress: [#####################-----------------------------]    43.0 %     |
+ Progress: [######################----------------------------]    44.0 %     /
+ Progress: [######################----------------------------]    45.0 %     -
+ Progress: [#######################---------------------------]    46.0 %     \
+ Progress: [#######################---------------------------]    47.0 %     |
+ Progress: [########################--------------------------]    48.0 %     /
+ Progress: [########################--------------------------]    49.0 %     -
+ Progress: [#########################-------------------------]    50.0 %     \
+ Progress: [#########################-------------------------]    51.0 %     |
+ Progress: [##########################------------------------]    52.0 %     /
+ Progress: [##########################------------------------]    53.0 %     -
+ Progress: [###########################-----------------------]    54.0 %     \
+ Progress: [###########################-----------------------]    55.0 %     |
+ Progress: [############################----------------------]    56.0 %     /
+ Progress: [############################----------------------]    57.0 %     -
+ Progress: [############################----------------------]    58.0 %     \
+ Progress: [#############################---------------------]    59.0 %     |
+ Progress: [##############################--------------------]    60.0 %     /
+ Progress: [##############################--------------------]    61.0 %     -
+ Progress: [###############################-------------------]    62.0 %     \
+ Progress: [###############################-------------------]    63.0 %     |
+ Progress: [################################------------------]    64.0 %     /
+ Progress: [################################------------------]    65.0 %     -
+ Progress: [#################################-----------------]    66.0 %     \
+ Progress: [#################################-----------------]    67.0 %     |
+ Progress: [##################################----------------]    68.0 %     /
+ Progress: [##################################----------------]    69.0 %     -
+ Progress: [###################################---------------]    70.0 %     \
+ Progress: [###################################---------------]    71.0 %     |
+ Progress: [####################################--------------]    72.0 %     /
+ Progress: [####################################--------------]    73.0 %     -
+ Progress: [#####################################-------------]    74.0 %     \
+ Progress: [#####################################-------------]    75.0 %     |
+ Progress: [######################################------------]    76.0 %     /
+ Progress: [######################################------------]    77.0 %     -
+ Progress: [#######################################-----------]    78.0 %     \
+ Progress: [#######################################-----------]    79.0 %     |
+ Progress: [########################################----------]    80.0 %     /
+ Progress: [########################################----------]    81.0 %     -
+ Progress: [#########################################---------]    82.0 %     \
+ Progress: [#########################################---------]    83.0 %     |
+ Progress: [##########################################--------]    84.0 %     /
+ Progress: [##########################################--------]    85.0 %     -
+ Progress: [###########################################-------]    86.0 %     \
+ Progress: [###########################################-------]    87.0 %     |
+ Progress: [############################################------]    88.0 %     /
+ Progress: [############################################------]    89.0 %     -
+ Progress: [#############################################-----]    90.0 %     \
+ Progress: [#############################################-----]    91.0 %     |
+ Progress: [##############################################----]    92.0 %     /
+ Progress: [##############################################----]    93.0 %     -
+ Progress: [###############################################---]    94.0 %     \
+ Progress: [###############################################---]    95.0 %     |
+ Progress: [################################################--]    96.0 %     /
+ Progress: [################################################--]    97.0 %     -
+ Progress: [#################################################-]    98.0 %     \
+ Progress: [#################################################-]    99.0 %     |
+ Progress: [##################################################]   100.0 %     /
+ 
+ Calculation of mapped function took up wall clock time        26 s
+ 
+ Global surface minimum: -0.081679 a.u. at   3.575702  -1.852181  -1.398425 Ang
+ Global surface maximum:  0.074941 a.u. at  -2.263175   4.313713   1.075469 Ang
+ 
+ The number of surface minima:     6
+   #       a.u.         eV      kcal/mol           X/Y/Z coordinate(Angstrom)
+     1 -0.04924561   -1.340041  -30.902111      -4.194419  -3.421911  -0.481346
+     2 -0.03123236   -0.849876  -19.598619      -3.208290   0.219164  -1.597539
+     3 -0.02774010   -0.754847  -17.407190      -2.113245  -0.546538   2.033448
+     4 -0.03095492   -0.842326  -19.424524      -1.987002  -0.023996  -2.076832
+     5 -0.04199922   -1.142857  -26.354931       0.514535   0.620539   1.874995
+*    6 -0.08167900   -2.222599  -51.254390       3.575702  -1.852181  -1.398425
+ 
+ The number of surface maxima:     8
+   #       a.u.         eV      kcal/mol           X/Y/Z coordinate(Angstrom)
+     1  0.01097205    0.298565    6.885072      -5.488298  -0.986478   0.947288
+*    2  0.07494141    2.039259   47.026482      -2.263175   4.313713   1.075469
+     3  0.06639690    1.806752   41.664719      -0.942986  -3.863524  -1.295893
+     4  0.07200740    1.959421   45.185365       0.632107  -2.555786   2.557067
+     5  0.00385985    0.105032    2.422097       1.153620  -0.572673  -2.930419
+     6  0.03643402    0.991420   22.862712       1.238375   4.656770   0.083343
+     7  0.04678499    1.273084   29.358047       4.819665   2.020228  -1.201927
+     8  0.04314247    1.173966   27.072328       5.534037  -0.434914   1.075701
+ 
+       ================= Summary of surface analysis =================
+ 
+ Volume:  1736.45554 Bohr^3  ( 257.31616 Angstrom^3)
+ Estimated density according to mass and volume (M/V):    1.4212 g/cm^3
+ Minimal value:    -51.25439 kcal/mol   Maximal value:     47.02648 kcal/mol
+ Overall surface area:         863.58408 Bohr^2  ( 241.82817 Angstrom^2)
+ Positive surface area:        419.52053 Bohr^2  ( 117.47771 Angstrom^2)
+ Negative surface area:        444.06355 Bohr^2  ( 124.35046 Angstrom^2)
+ Overall average value:   -0.00071836 a.u. (     -0.45078 kcal/mol)
+ Positive average value:   0.02506213 a.u. (     15.72673 kcal/mol)
+ Negative average value:  -0.02507397 a.u. (    -15.73417 kcal/mol)
+ Overall variance (sigma^2_tot):  0.00061630 a.u.^2 (   242.68168 (kcal/mol)^2)
+ Positive variance:        0.00031009 a.u.^2 (    122.10424 (kcal/mol)^2)
+ Negative variance:        0.00030621 a.u.^2 (    120.57744 (kcal/mol)^2)
+ Balance of charges (nu):   0.24999010
+ Product of sigma^2_tot and nu:   0.00015407 a.u.^2 (   60.66802 (kcal/mol)^2)
+ Internal charge separation (Pi):   0.02505533 a.u. (     15.72247 kcal/mol)
+ Molecular polarity index (MPI):   0.68214089 eV (     15.73056 kcal/mol)
+ Nonpolar surface area (|ESP| <= 10 kcal/mol):     83.04 Angstrom^2  ( 34.34 %)
+ Polar surface area (|ESP| > 10 kcal/mol):        158.79 Angstrom^2  ( 65.66 %)
+ Overall skewness:         0.0405933163
+ Positive skewness:        0.6979300514
+ Negative skewness:       -0.8240853031
+ 
+ Surface analysis finished!
+ Total wall clock time passed during this task:    28 s
+ Citation of molecular polarity index (MPI): Carbon, 171, 514 (2021) DOI: 10.1016/j.carbon.2020.09.048
+ 
+                    ---------- Post-processing menu ----------
+ -3 Visualize the surface
+ -2 Export the grid data to surf.cub in current folder
+ -1 Return to upper level menu
+ 0 View molecular structure, surface minima and maxima
+ 1 Export surface extrema as surfanalysis.txt in current folder
+ 2 Export surface extrema as surfanalysis.pdb in current folder
+ 3 Discard surface minima in certain value range
+ 4 Discard surface maxima in certain value range
+ 5 Export molecule as pdb format file
+ 6 Export all surface vertices to vtx.pdb in current folder
+ 7 Export all surface vertices to vtx.txt in current folder
+ 8 Export all surface vertices and surface extrema as vtx.pqr and extrema.pqr
+ 9 Output surface area in specific value range of mapped function
+ 10 Output the closest and farthest distance between the surface and a point
+ 11 Output surface properties of each atom
+ 12 Output surface properties of specific fragment
+ 13 Calculate grid data of mapped function and export it to mapfunc.cub
+ 14 Calculate area and function average in a region around a surface extreme
+ 15 Basin-like partition of surface and calculate areas
+ 18 Discard some surface extrema by inputting their indices
+ 19 Merge some surface extrema and take their average position
+ 
+ NOTE: If this module is used in your research, please cite both the Multiwfn original papers (those shown when Multiwfn boots up) and the following paper, the latter detailedly described the underlying algorithm employed in this module
+ Tian Lu, Feiwu Chen, Quantitative analysis of molecular surface based on improved Marching Tetrahedra algorithm, J. Mol. Graph. Model., 38, 314-323 (2012)
+ 
+      ============= Quantitative Molecular Surface Analysis =============
+ -1 Return to main menu
+ 0 Start analysis now!
+ 1 Select the way to define surface, current: Electron density, iso:  0.00100
+ 2 Select mapped function, current: Electrostatic potential (ESP)
+ 3 Spacing of grid points for generating molecular surface:  0.250000
+ 4 Advanced options
+ 5 Loading mapped function values from external file, current: No
+ 6 Start analysis without considering mapped function
+ 
+ Note: A set of grid data is presented in memory
+ "q": Exit program gracefully          "r": Load a new file
+                    ************ Main function menu ************
+ 0 Show molecular structure and view orbitals
+ 1 Output all properties at a point       2 Topology analysis
+ 3 Output and plot specific property in a line
+ 4 Output and plot specific property in a plane
+ 5 Output and plot specific property within a spatial region (calc. grid data)
+ 6 Check & modify wavefunction
+ 7 Population analysis and calculation of atomic charges
+ 8 Orbital composition analysis           9 Bond order analysis
+ 10 Plot total DOS, PDOS, OPDOS, local DOS, COHP and photoelectron spectrum
+ 11 Plot IR/Raman/UV-Vis/ECD/VCD/ROA/NMR spectrum
+ 12 Quantitative analysis of molecular surface
+ 13 Process grid data
+ 14 Adaptive natural density partitioning (AdNDP) analysis
+ 15 Fuzzy atomic space analysis
+ 16 Charge decomposition analysis (CDA) and plot orbital interaction diagram
+ 17 Basin analysis                       18 Electron excitation analysis
+ 19 Orbital localization analysis        20 Visual study of weak interaction
+ 21 Energy decomposition analysis        22 Conceptual DFT (CDFT) analysis
+ 23 ETS-NOCV analysis                    24 (Hyper)polarizability analysis
+ 25 Electron delocalization and aromaticity analyses
+ 26 Structure and geometry related analyses
+ 100 Other functions (Part 1)            200 Other functions (Part 2)
+ 300 Other functions (Part 3)

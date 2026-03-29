@@ -1,3 +1,27 @@
+
+!RKS B3LYP 6-31G(d,p) TightSCF Opt D3BJ
+ 
+%pal nprocs 2 end
+%maxcore 3000
+
+%cpcm
+  smd true
+  SMDsolvent "WATER"
+  end
+
+%scf
+  MaxIter 1000
+  SOSCF Start 0.00033
+  end
+end
+
+%output
+  PrintLevel Normal
+  Print[ P_OrbEn ] 2        # print ALL orbital energies (not just up to LUMO+9) :contentReference[oaicite:10]{index=10}
+  XYZFile true              # writes basename.xyz (handy for reuse) :contentReference[oaicite:11]{index=11}
+  end
+
+*xyz 0 1
 F        2.990500000      2.058600000     -0.631700000
 F        2.075300000     -2.466200000      0.424400000
 F        3.809900000     -0.544000000     -0.453800000
@@ -21,3 +45,4 @@ H        0.521100000      2.499900000      0.079500000
 H       -3.334400000      2.557500000      0.227200000
 H       -4.014800000      1.290900000      0.987200000
 H       -2.489200000     -2.200300000     -1.527000000
+*
