@@ -91,13 +91,20 @@ def parse_orbital_energies(out_file: str):
 
 
 def get_homo_index(occupancies: list) -> int:
-    """Return the index of the HOMO (last orbital with OCC = 2.0000)."""
+    """
+    Return the HOMO index as the last occupied orbital.
+
+    Works for:
+    - closed-shell tables (occupied OCC ~ 2.0000)
+    - open-shell/spin-resolved tables (occupied OCC ~ 1.0000)
+    - any fractional-occupancy case where OCC > 0
+    """
     homo_idx = -1
     for i, occ in enumerate(occupancies):
-        if abs(occ - 2.0) < 1e-6:
+        if occ > 1e-8:
             homo_idx = i
     if homo_idx == -1:
-        raise ValueError("No occupied orbital (OCC=2.0000) found in table.")
+        raise ValueError("No occupied orbital (OCC>0) found in table.")
     return homo_idx
 
 
