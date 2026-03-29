@@ -1,0 +1,12 @@
+{
+  "tag": "edens_iso0.001",
+  "surface_def": "Electron density",
+  "iso": 0.001,
+  "total_surface_A2": 209.07614,
+  "polar_area_A2": 117.43,
+  "nonpolar_area_A2": 91.65,
+  "polar_threshold_kcal": 10.0,
+  "volume_A3": 213.767,
+  "minESP_au": -0.058576,
+  "maxESP_au": 0.079438
+}
