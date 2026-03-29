@@ -1,0 +1,3 @@
+qNPSA
+Negative surface area
+HOMO-5s-LUMO+1i
